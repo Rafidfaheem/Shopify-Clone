@@ -1,0 +1,150 @@
+body{
+    background-color: #e4f8ea;
+}
+.img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.text > h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+}
+.text > p{
+    font-family: sans-serif;
+    color: rgb(117, 103, 86);
+    font-size: 19px;
+    text-align: center;
+} 
+.input{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.input > input{
+    border-radius: 30px;
+    height: 60px;
+    width: 350px;
+    border: solid 1px;
+}
+button{
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    height: 60px;
+    width: 120px;
+}
+.input > input::placeholder{
+    color: black;
+    text-align: center;
+}
+.para > p{
+    font-family: sans-serif;
+    color: rgb(117, 103, 86);
+    font-size: 15px;
+    text-align: center;
+} 
+.gif{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.card1 > p{
+    font-family: sans-serif;
+    color: rgb(117, 103, 86);
+    font-size: 15px;
+}
+.card1 > h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.card1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.imagegallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text5 > h1{
+    font-family: sans-serif;
+    font-weight: 50;
+    text-align: center;
+    font-size: 60px;
+}
+.text5 > p{
+    font-family: sans-serif;
+    color: rgb(117, 103, 86);
+    font-size: 20px;
+    text-align: center;
+}
+.next{
+    background-color: #689487;
+    height: 400px; 
+}
+.next > h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.next > p{
+    font-family: sans-serif;
+    color: rgb(207, 198, 186);
+    font-size: 19px;
+    text-align: center;
+}
+.w3{
+    font-family: sans-serif;
+    color: rgb(117, 103, 86);
+    font-size: 15px;
+}
+.faq > h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+summary{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+/* summary {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  } */
+.faq > p{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 2px;
+  }
+
+a{
+    font-family: sans-serif;
+    color: black;
+    font-weight: 600;
+}  
+
+a ::placeholder{
+    text-decoration: none;
+    color: rgb(186, 176, 176);
+}
